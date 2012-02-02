@@ -5,7 +5,7 @@ def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
 setup(
-    name="passport",
+    name="gniles",
     version="0.1",
     author="Grahame Niles",
     author_email="nilesgrahame@yahoo.co.uk",
@@ -20,7 +20,7 @@ setup(
     keywords="geonode django",
     url='https://github.com/GNiles/GNiles-GeoNode-Project',
     scripts = [
-               'scripts/passport',
+               'scripts/gniles',
               ],
     packages=find_packages('.'),
     include_package_data=True,
